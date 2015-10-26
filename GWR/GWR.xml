@@ -1,0 +1,53 @@
+<!--This is a comment, it won't be read by Create.swf extended, feel free to delete these if you no longer need them-->
+<!--You need this file in your repo folder for the customs menu to work.(a folder named "GWR" is used by default)-->
+
+<!--this xml tag is our root tag.-->
+<xml>
+	
+	<!--This adds a "Misc" category to the customs menu, there must be a "Misc" folder in the Repo/GWR so create.swf can find the files-->
+	<Misc>
+		<!--inside our category, we can specify what customs belong in it.-->
+		<!--The final path to the file is read as:category/author/custom-id/largestscale.png-->
+		<custom id="Ocarina of Time" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Low Angle Table" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Pillar of Light" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Pillar of Light(Inverted)" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Pillar of Darkness" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Pillar of Darkness(Inverted)" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Generic Character Shading" author="RSGmaker" description="Just some samples" scales="1,2,4"/>
+	</Misc>
+	<!--A ReimuBros category, you can name a category whatever you like as long you have a matching folder.-->
+	<ReimuBros>
+		<custom id="QuestionBlock" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="EmptyBlock" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Warning" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="1up" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="CharredBlock" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Block" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="IcyBlock" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="PowBlock" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="PowBlock2" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Point" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Bomb" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Flag" author="RSGmaker" description="Just some samples" scales="1"/>
+		<custom id="Stage" author="RSGmaker" description="Just some samples" scales="1"/>
+	</ReimuBros>
+	<!--ShinKong(http://shinkong.deviantart.com/ ), gave me permission to reupload some of his "Even More Backgrounds!"-->
+	<!--You can look in the Backgrounds folder and see that you can have multiple author folders.-->
+	<Backgrounds>
+		<custom id="Even More Forest" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Even More Forest2" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Forest Path" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Forest Path(Sunset)" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Forest Path(Night)" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Forest Top View" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Hakugyokurou Entrance Path" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Hakugyokurou Entrance Path(Evening)" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Hakugyokurou Entrance Path(Night)" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Hakugyokurou Room" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Myouren Temple" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Myouren Temple(Sunset)" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Myouren Temple(Night)" author="ShinKong" description="Obtained from: http://fav.me/d9bdr22" scales="1,2"/>
+		<custom id="Generic Interior" author="RSGmaker" description="Just some samples" scales="1,2"/>
+	</Backgrounds>
+</xml>
