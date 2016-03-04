@@ -1,2 +1,2 @@
-11/17/2015
-Added more background variants.
+3/4/2016
+Greatly improved stability.
