@@ -1,2 +1,2 @@
-3/4/2016
-Greatly improved stability.
+3/7/2016
+Fixed headless prop.\nAdded training equipment
