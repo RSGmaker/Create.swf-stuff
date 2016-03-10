@@ -1,2 +1,2 @@
-3/7/2016
-Fixed headless prop.\nAdded training equipment
+3/9/2016
+search failures are now indicated.\nadded new backgrounds.\nadded Flan Cursor.
