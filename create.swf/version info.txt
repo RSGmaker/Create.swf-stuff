@@ -1,2 +1,2 @@
-3/9/2016
-search failures are now indicated.\nadded new backgrounds.\nadded Flan Cursor.
+3/11/2016
+fixed some backgrounds.\nadded new backgrounds.\nadded new objects.
