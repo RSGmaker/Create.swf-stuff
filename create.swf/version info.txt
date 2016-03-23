@@ -1,2 +1,2 @@
-3/22/2016
-Hair color now applies to some accessory/hat/wings.\nHeadless hitbox fix.\nRecolor menu no longer gets stuck in skin mode.\nNew background.
+3/23/2016
+Backgrounds and character parts are now sorted.
