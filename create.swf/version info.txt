@@ -1,2 +1,2 @@
-3/23/2016
-Backgrounds and character parts are now sorted.
+3/29/2016
+Added camera controls.
