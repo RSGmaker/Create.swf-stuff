@@ -34,11 +34,16 @@ document.getElementById('files').onchange = function(e) {
 	var s = files[i].webkitRelativePath;
 	var a = s.split("/");
 	//check if this is a valid prop.
-	if (s.indexOf(".png")>-1 && a.length==5)
+	var ext = "";
+	if (s.indexOf(".")>-1)
 	{
-		var scales = a[4].split(".png")[0];
+		ext = "."+s.split(".")[1];
+	}
+	if ((ext == ".png" || ext == ".jpg" || ext == ".gif" || ext == ".png" || ext == ".bmp" || ext == ".jpeg"|| ext == ".swf") && a.length==5)
+	{
+		var scales = a[4].split(ext)[0];
 		var j = i+1;
-		var basic = s.split(scales+".png")[0];
+		var basic = s.split(scales+ext)[0];
 		var ok = true;
 		//check for and add new categories
 		if (category != a[1])
@@ -58,15 +63,21 @@ document.getElementById('files').onchange = function(e) {
 			ok = false;
 			if (s2.indexOf(basic)>-1)
 			{
-				var a2 = s2.split("/");
-				scales = scales + ","+a2[4].split(".png")[0];
-				ok = true;
-				i++;
+				if (s2.indexOf(ext)>-1)
+				//if (s2.indexOf(".")<0)
+				{
+					var a2 = s2.split("/");
+				
+					scales = scales + ","+a2[4].split(ext)[0];
+					ok = true;
+					i++;
+				}
 			}
 			j++;
 		}
 		//build the custom prop tag
-		s = "<custom id=\""+a[3]+"\" author=\""+a[2]+"\" description=\""+document.getElementById('description').value+"\" scales=\""+scales+"\"/>";
+		//s = "<custom id=\""+a[3]+"\" author=\""+a[2]+"\" description=\""+document.getElementById('description').value+"\" scales=\""+scales+"\"/>";
+		s = "<custom id=\""+a[3]+"\" author=\""+a[2]+"\" description=\""+document.getElementById('description').value+"\" ext=\""+ext+"\" scales=\""+scales+"\"/>";
 		xml = xml + "\n\t\t"+s;
 	}
     //console.debug(s);
