@@ -1,2 +1,2 @@
-3/29/2016
-Added camera controls.
+4/3/2016
+Imported .swf images are no longer rastered.\nAsset packs support more file types.
