@@ -1,2 +1,2 @@
-4/3/2016
-Imported .swf images are no longer rastered.\nAsset packs support more file types.
+4/4/2016
+Sounds are now fixed.
