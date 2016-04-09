@@ -32,7 +32,7 @@ onEnterFrame = function () {
 			//Stage objects are MovieClips, AS2 documention: http://help.adobe.com/en_US/as2/reference/flashlite/WS5b3ccc516d4fbf351e63e3d118cd9b5f6e-7898.html 
 			var object = theStage[Name];
 			
-			//What type of object this is.("Character","Screenshot","Cluster","Rain")
+			//What type of object this is.("Character","Screenshot","Cluster","Rain","SpeechBubble")
 			var objectType = object.Type;
 			
 			//Spins the object.
