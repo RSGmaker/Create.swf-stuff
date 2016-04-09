@@ -1,2 +1,2 @@
-4/4/2016
-Sounds are now fixed.
+4/9/2016
+Fixed advanced hair recolor bug.
