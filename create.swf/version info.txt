@@ -1,2 +1,2 @@
-4/9/2016
-Fixed advanced hair recolor bug.
+4/19/2016
+Scene bugfixes.\nRemapped alpha&zoom controls to page up/down.
