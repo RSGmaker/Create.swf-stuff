@@ -1,2 +1,2 @@
-4/19/2016
-Scene bugfixes.\nRemapped alpha&zoom controls to page up/down.
+4/30/2016
+Clicking off a speechbubble properly disables input mode.
