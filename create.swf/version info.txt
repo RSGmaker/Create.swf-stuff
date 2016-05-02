@@ -1,2 +1,2 @@
-4/30/2016
-Clicking off a speechbubble properly disables input mode.
+5/1/2016
+Fixed a speech bubble input issue.
