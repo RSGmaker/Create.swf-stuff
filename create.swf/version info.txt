@@ -1,2 +1,2 @@
-6/13/2016
-Added image anti-aliasing setting.
+7/16/2016
+Added Inverted Region.\nAdded some object variants.
