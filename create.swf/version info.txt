@@ -1,2 +1,2 @@
-7/16/2016
-Added Inverted Region.\nAdded some object variants.
+7/27/2016
+Fixed backgrounds search box.
