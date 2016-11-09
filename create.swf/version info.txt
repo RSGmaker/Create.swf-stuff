@@ -1,2 +1,1 @@
-10/10/2016
-Blank option settings no longer disappear.
+11/8/2016
