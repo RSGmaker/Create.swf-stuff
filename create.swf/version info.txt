@@ -1,2 +1,2 @@
-11/8/2016
-Added save data failure rollback.\nMaximum custom assets categories increased to 20.
+11/9/2016
+Fixed custom assets category layout.
