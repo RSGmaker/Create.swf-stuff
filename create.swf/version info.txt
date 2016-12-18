@@ -1,2 +1,2 @@
-11/9/2016
-Fixed custom assets category layout.
+12/18/2016
+Added Features:Hue shift,object transparency. Objects:Background,Color Multiplier/Overlay,Masker,Background Parts.Clone Capsule bugfix.
