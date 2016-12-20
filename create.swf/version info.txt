@@ -1,2 +1,2 @@
-12/18/2016
-Added Features:Hue shift,object transparency. Objects:Background,Color Multiplier/Overlay,Masker,Background Parts.Clone Capsule bugfix.
+12/19/2016
+Added Feature:Object stretching(shift-control)
