@@ -1,2 +1,2 @@
-12/19/2016
-Added Feature:Object stretching(shift-control)
+12/27/2016
+Added Feature:Undo+Redo(control-z/y). "show dna" copy button,"fusion lab" name combining, bugfixes.
