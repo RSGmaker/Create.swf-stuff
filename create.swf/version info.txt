@@ -1,2 +1,2 @@
-12/27/2016
-Added Feature:Undo+Redo(control-z/y). "show dna" copy button,"fusion lab" name combining, bugfixes.
+12/29/2016
+Added object:Frame Border. Background's Variant&Extra save data bugfix. Performance tweaks.
