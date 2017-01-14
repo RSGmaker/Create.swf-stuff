@@ -1,2 +1,2 @@
-1/10/2017
-All parts of a cluster now show the correct variant.
+1/13/2017
+Added text drop-shadows. (enable it under options)
