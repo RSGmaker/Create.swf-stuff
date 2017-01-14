@@ -1,2 +1,2 @@
-1/13/2017
-Added text drop-shadows. (enable it under options)
+1/14/2017
+Text bubbles now automatically fit text,and bubble background opacitiy can be changed with page up/down.
