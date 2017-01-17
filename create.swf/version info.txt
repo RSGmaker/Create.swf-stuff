@@ -1,2 +1,2 @@
-1/15/2017
-Added Revue font. Added "Custom" fonts.
+1/17/2017
+Bubble opacity bugfixes. reduced filesize, minor performance tweak. Images are now cached.
