@@ -1,2 +1,2 @@
-1/17/2017
-Bubble opacity bugfixes. reduced filesize, minor performance tweak. Images are now cached.
+1/20/2017
+Click through images bugfix.
