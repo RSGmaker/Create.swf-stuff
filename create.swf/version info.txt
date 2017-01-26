@@ -1,2 +1,2 @@
-1/20/2017
-Click through images bugfix.
+1/25/2017
+Added "detach arms" feature to character's object menu.
