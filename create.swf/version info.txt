@@ -1,2 +1,2 @@
-1/26/2017
-Added "detach head" feature to character's object menu.
+1/28/2017
+Added scribble and sketch Masker variants.Added object "darkness gradient".Camera and other tweaks/fixes.
