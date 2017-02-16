@@ -1,2 +1,2 @@
-2/11/2017
-Added 7 new "BlamBot" speechbubble fonts. Added scene part motion tweening.
+2/15/2017
+Images without anti-aliasing are now positioned correctly.
