@@ -1,2 +1,2 @@
-2/15/2017
-Images without anti-aliasing are now positioned correctly.
+2/19/2017
+click-through image now disabled when anti-alias is inactive. Added Scene JSON import/export. Added "Max Subacts" to options.
