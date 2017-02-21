@@ -29,6 +29,7 @@ document.getElementById('files').onchange = function(e) {
   var files = e.target.files; // FileList
   var category = "";
   var author = "";
+  var error="";
   for (var i = 0, f; f = files[i]; ++i)
   {
 	var s = files[i].webkitRelativePath;
@@ -50,6 +51,9 @@ document.getElementById('files').onchange = function(e) {
 		{
 			var last = category;
 			category = a[1];
+			if (category.indexOf(" ")>=0){
+				error = error+"\nError in category folder:"+category+"\nCategories cannot contain spaces in their names.\n";
+			}
 			if (last != "")
 			{
 				xml = xml + "\n\t</"+last+">";
@@ -89,13 +93,23 @@ document.getElementById('files').onchange = function(e) {
 	}
 	//add the closing tag for the xml file
 	xml = xml + "\n</xml>";
+	if (error != ""){
+		xml = "An error has occured, could not generate xml.\nError:"+error;
+		document.getElementById('output').style.backgroundColor="FFFFDD";
+	}else{
+		document.getElementById('output').style.backgroundColor="white";
+	}
 	document.getElementById('output').innerHTML = "<xmp>"+xml+"</xmp>";
 	
 	
+	if (error == ""){
 	//Populate save as link with the xml file data.
 	document.getElementById('save').innerHTML = "Save generated xml...";
 	var blob = new Blob([xml], {type: "application/xhtml+xml;charset=" + document.characterSet});
 	document.getElementById('save').href = window.URL.createObjectURL(blob);
+	}else{
+	document.getElementById('save').innerHTML="";
+	}
 }
 </script>
 </body>
