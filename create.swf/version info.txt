@@ -1,2 +1,2 @@
-2/19/2017
-click-through image now disabled when anti-alias is inactive. Added Scene JSON import/export. Added "Max Subacts" to options.
+2/27/2017
+characters can now be stretched. You can now press enter to cycle through search results. a handful of bugfixes and tweaks.
