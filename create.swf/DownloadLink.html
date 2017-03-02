@@ -17,5 +17,27 @@
 		<p>
 			If you have any comments or feedback, send them to <a href="http://rsgmaker.deviantart.com">RSGmaker</a>.
 		</p>
+		<br/>
+		<br/>
+		<div style="background-color:#DDDDFF">
+		
+		<div id="Changes">
+		</div>
+		</div>
+		<script>
+		var Changes = document.getElementById("Changes");
+		var request = new XMLHttpRequest();
+		request.open('GET', 'version info.txt', true);
+		request.send(null);
+		request.onreadystatechange = function () {
+        if (request.readyState === 4 && request.status === 200) {
+			var text = request.responseText.replace("\\n","<br/>");
+			var TS = text.split("\n");
+			TS[0] = "<b>CreateX version "+TS[0]+"</b>";
+			Changes.innerHTML = TS.join("<br/><br/>");
+            //Changes.innerHTML = "<b>Version:</b>"+request.responseText.replace("\n","<br/><br/>").replace("\\n","<br/>");
+        }
+    }
+		</script>
 	</body>
 </html>
