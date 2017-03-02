@@ -1,2 +1,2 @@
-2/27/2017
-characters can now be stretched. You can now press enter to cycle through search results. a handful of bugfixes and tweaks.
+3/1/2017
+Invalid character parts now use their default values.
