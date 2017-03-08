@@ -1,2 +1,2 @@
-3/1/2017
-Invalid character parts now use their default values.
+3/7/2017
+Added camera rotation. Added "duplicate" to object's prop menu.
