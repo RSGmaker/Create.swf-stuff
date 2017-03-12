@@ -1,2 +1,2 @@
-3/7/2017
-Added camera rotation. Added "duplicate" to object's prop menu.
+3/12/2017
+Fixed Frame Border object
