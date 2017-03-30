@@ -1,2 +1,2 @@
-3/12/2017
-Fixed Frame Border object
+3/30/2017
+Click-through-images bugfixes.
