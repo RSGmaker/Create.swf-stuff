@@ -1,2 +1,2 @@
-3/30/2017
-Click-through-images bugfixes.
+4/2/2017
+Drag screenshot with click-through-image activated bugfix.
