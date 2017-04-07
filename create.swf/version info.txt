@@ -1,2 +1,2 @@
-4/2/2017
-Drag screenshot with click-through-image activated bugfix.
+4/7/2017
+Object duplication now works properly with create.swf extended objects. Object duplication hue bugfix.
