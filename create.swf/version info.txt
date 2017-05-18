@@ -1,2 +1,2 @@
-5/17/2017
-Added objects:Key,Dice. Added item:Pencil. Edited hat "Reimu (2 Alt)". Added experimental svg support(very basic). Sorted eyes & mouths.
+5/18/2017
+Bugfix:Disabled eye/mouth sorting, causes ID issues. Might re-add later with fix.
