@@ -1,2 +1,2 @@
-4/7/2017
-Object duplication now works properly with create.swf extended objects. Object duplication hue bugfix.
+5/17/2017
+Added objects:Key,Dice. Added item:Pencil. Edited hat "Reimu (2 Alt)". Added experimental svg support(very basic). Sorted eyes & mouths.
