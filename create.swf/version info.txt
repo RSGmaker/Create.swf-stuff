@@ -1,2 +1,2 @@
-5/19/2017
-Added Image/Snapshot duplication. Added spellcheck(requires dictionary.txt file).
+5/20/2017
+Added effect object:Advanced lighting. Bent arm objects 1 and 2 are now recolorable with C. Eyes and Mouths are now sorted again.
