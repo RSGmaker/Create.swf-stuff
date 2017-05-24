@@ -1,2 +1,2 @@
-5/20/2017
-Added effect object:Advanced lighting. Bent arm objects 1 and 2 are now recolorable with C. Eyes and Mouths are now sorted again.
+5/24/2017
+Added objects "FXO:Eraser advanced", Feraligono's "Oil Lantern".Lighting system improvements. Added "Detach BG" to stage menu.
