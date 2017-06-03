@@ -1,2 +1,2 @@
-5/27/2017
-SVG support improvements. Eraser advanced now works with images and speech bubbles. speech bubbles can now be duplicated. Pressing shift-s now makes an image only of the selected prop.
+6/3/2017
+Added effects menu to all props. added minigame toy "No Entry Sign". Clusters and rain can now be duplicated. Fixed asset packs.
