@@ -1,2 +1,2 @@
-6/11/2017
-Camera+stage related bugfixes and tweaks. Added stemless variants to various flower objects.
+6/12/2017
+Fixed theater mode.
