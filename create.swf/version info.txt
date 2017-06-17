@@ -1,2 +1,2 @@
-6/12/2017
-Fixed theater mode.
+6/17/2017
+Added Image stretching. Made changes to effects:"Change Color","Blur". Added effect "Distortion". Added object pink flower.
