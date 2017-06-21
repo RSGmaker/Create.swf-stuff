@@ -1,2 +1,2 @@
-6/17/2017
-Added Image stretching. Made changes to effects:"Change Color","Blur". Added effect "Distortion". Added object pink flower.
+6/20/2017
+Added Scale added props to background(disable it in options).
