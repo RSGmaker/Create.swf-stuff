@@ -1,2 +1,2 @@
-6/20/2017
-Added Scale added props to background(disable it in options).
+6/25/2017
+Bugfixes:Face skin color works again. Clear effects no longer freezes when already empty. Change Color effect is now removable.
