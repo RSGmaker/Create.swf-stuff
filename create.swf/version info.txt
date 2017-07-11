@@ -1,2 +1,2 @@
-6/25/2017
-Bugfixes:Face skin color works again. Clear effects no longer freezes when already empty. Change Color effect is now removable.
+7/10/2017
+Added Character part: O mouth 86(created by Ceej).Imported .swf bugfix. Duplication tweak and bugfixes.
