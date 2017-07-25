@@ -1,2 +1,2 @@
-7/10/2017
-Added Character part: O mouth 86(created by Ceej).Imported .swf bugfix. Duplication tweak and bugfixes.
+7/24/2017
+Added "Hat" to detach menu. renamed shoe "Minoriko" to "Barefoot".Yoshika arms and Barefoot now work with custom skin colors. Fixed a vanilla create.swf compatibility issue.
