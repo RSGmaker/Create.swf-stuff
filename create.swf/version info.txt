@@ -1,2 +1,2 @@
-7/24/2017
-Added "Hat" to detach menu. renamed shoe "Minoriko" to "Barefoot".Yoshika arms and Barefoot now work with custom skin colors. Fixed a vanilla create.swf compatibility issue.
+7/26/2017
+Fixed hair color saving issue. Added effect:"theater mode = hide".
