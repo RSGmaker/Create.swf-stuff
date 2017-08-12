@@ -1,2 +1,2 @@
-7/26/2017
-Fixed hair color saving issue. Added effect:"theater mode = hide".
+8/11/2017
+Added effects "outline" and "attached".
