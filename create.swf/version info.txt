@@ -1,2 +1,2 @@
-8/11/2017
-Added effects "outline" and "attached".
+8/13/2017
+Prop effect "attached" bugfixes and improvements. Prop effects can now have their targets changed from their options menu.
