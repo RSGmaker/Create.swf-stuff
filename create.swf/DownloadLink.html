@@ -4,16 +4,21 @@
 		<title>Create.swf extended download page</title>
 	</head>
 	<body>
+		<!--The current version of flash player available.-->
+		<input type="hidden" id="flashversion" value="27">
 		<h1>
-		<a href="create.swf" download>⇩ Click here to download Create.swf extended.</a>
+		<a href="create.swf" download>⇩ Click here to download Create.swf extended.</a> 
 		</h1>
-		<a href="create.swf.html">Or click here to use it online.</a>
+		Using Flash Player projector to run it is recommended.(<a id="fppwin" href="https://fpdownload.macromedia.com/pub/flashplayer/updaters/27/flashplayer_27_sa.exe" download>Windows</a>, <a id="fppmac" href="https://fpdownload.macromedia.com/pub/flashplayer/updaters/27/flashplayer_27_sa.dmg" download>Mac</a>, <a id="fpplinux" href="https://fpdownload.macromedia.com/pub/flashplayer/updaters/27/flash_player_sa_linux.x86_64.tar.gz" download>Linux</a>)
+		<br/>
+		<br/>
+		<a href="create.swf.html">Or click here to use it online in your browser.</a>
 		<br/>
 		<br/>
 		<br/>
 		<b>Extras files:</b>
 		<br/>
-		<a href="dictionary.txt" download>⇩ Spellcheck dictionary.txt</a> (Place this in the same folder as create.swf extended, to enable spellchecking.)
+		<a href="dictionary.txt" download>⇩ Spellcheck dictionary.txt</a> (Place this in the same folder as create.swf extended, to enable <a alt="">spellchecking</a>.)
 		<br/>
 		<br/>
 		<p>
@@ -21,7 +26,7 @@
 		<br/>
 			Create.swf extended is made by <a href="http://rsgmaker.deviantart.com">RSGmaker</a>.
 			<br/>
-			Create.swf is made and drawn by <a href="http://www.walfas.org">KirbyM</a> and programmed by <a href="http://thiefknight.deviantart.com">Thief Knight(TheFre)</a>
+			Create.swf is made and drawn by <a href="http://www.walfas.org">KirbyM</a> and programmed by <a href="http://thiefknight.deviantart.com">Thief Knight(TheFre)</a>.
 		</p>
 		<p>
 			If you have any comments or feedback, send them to <a href="http://rsgmaker.deviantart.com">RSGmaker</a>.
@@ -31,9 +36,21 @@
 		<div style="background-color:#DDDDFF">
 		
 		<div id="Changes">
+		Loading lastest update info...
 		</div>
 		</div>
+		<br/>
+		The full changelog can be viewed <a href="https://sta.sh/0j86ms3debq">here.</a>
 		<script>
+		var Ver = document.getElementById("flashversion").value;
+		
+		var base = "https://fpdownload.macromedia.com/pub/flashplayer/updaters/"+Ver+"/";
+		
+		document.getElementById("fppwin").href = base+"flashplayer_"+Ver+"_sa.exe";
+		document.getElementById("fppmac").href = base+"flashplayer_"+Ver+"_sa.dmg";
+		document.getElementById("fpplinux").href = base+"flash_player_sa_linux.x86_64.tar.gz";
+		
+		
 		var Changes = document.getElementById("Changes");
 		var request = new XMLHttpRequest();
 		request.open('GET', 'version info.txt', true);
